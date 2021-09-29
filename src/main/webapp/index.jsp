@@ -29,21 +29,21 @@
                     <div class="row">
                         <div class="col-6">
                             <label >Identificacion</label>
-                            <input class="form-control" type="number" min="0" ng-model="cn.identificacion">
+                            <input class="form-control" type="number" min="0" ng-model="cn.identificacion" required>
                         </div>
                         <div class="col-6">
                             <label>Nombre</label>
-                            <input class="form-control" type="text" ng-model="cn.nombre">
+                            <input class="form-control" type="text" ng-model="cn.nombre" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
                             <label>Apellido</label>
-                            <input class="form-control" type="text" ng-model="cn.apellido">
+                            <input class="form-control" type="text" ng-model="cn.apellido" required>
                         </div>
                         <div class="col-6">
                             <label>Genero</label>
-                            <select class="form-control" ng-model="cn.genero">
+                            <select class="form-control" ng-model="cn.genero" required>
                                 <option>Masculino</option>
                                 <option>Femenino</option>
                             </select>
@@ -52,24 +52,24 @@
                     <div class="row">
                         <div class="col-6">
                             <label>Tipo identificacion</label>
-                            <select class="form-control" ng-model="cn.tipoIdentificacion">
+                            <select class="form-control" ng-model="cn.tipoIdentificacion" required>
                                 <option>CC</option>
                                 <option>TI</option>
                             </select>
                         </div>
                         <div class="col-6">
                             <label>Telefono</label>
-                            <input class="form-control" type="text" ng-model="cn.telefono">
+                            <input class="form-control" type="text" ng-model="cn.telefono" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
                             <label>Dirección</label>
-                            <input class="form-control" type="text" ng-model="cn.direccion">
+                            <input class="form-control" type="text" ng-model="cn.direccion" required>
                         </div>
                         <div class="col-6">
                             <label>Correo</label>
-                            <input class="form-control" type="text" ng-model="cn.correo">
+                            <input class="form-control" type="text" ng-model="cn.correo" required>
                         </div>
                     </div>
                     <div class="row">

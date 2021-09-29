@@ -21,20 +21,20 @@ public class ConexionBD {
 
     //Constructor sin parmetros		
     public ConexionBD() {
-        local = false;
+        local = true;
         DB_driver = "com.mysql.jdbc.Driver";
         if (local) {
             host = "localhost:3306";
-            db = "misiontic";
+            db = "tiendavirtual";
             url = "jdbc:mysql://" + host + "/" + db; 		//URL DB
-            username = "root";                      			//usuario base de datos global 
-            password = "";
+            username = "juan";                      			//usuario base de datos global 
+            password = "juan";
         } else {
             host = "us-mm-auto-dca-04-b.cleardb.net:3306";
-            db = "heroku_6e60cc0c3b3469b";
+            db = " ";
             url = "jdbc:mysql://" + host + "/" + db; 		//URL DB
-            username = "bbc6aacd9944e4";                      			//usuario base de datos global 
-            password = "e8adf8e1";
+            username = " ";                      			//usuario base de datos global 
+            password = " ";
         }
         try {
             //Asignacin del Driver
